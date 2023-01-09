@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elbriantdev</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico">
     <script src="https://kit.fontawesome.com/182228421b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,13 +14,17 @@
     <!-------  main Section   ------->
     <div class="hero" id="inicio">
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
             <h2 class="logo">elbriant<span>dev</span></h2>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#proyects">Proyectos</a></li>
+                <li><a href="#inicio" onclick="document.getElementById('check').checked = false;">Inicio</a></li>
+                <li><a href="#about" onclick="document.getElementById('check').checked = false;">Sobre mí</a></li>
+                <li><a href="#proyects" onclick="document.getElementById('check').checked = false;">Proyectos</a></li>
+                <li><a href="#contact-me" class="btn" onclick="document.getElementById('check').checked = false;">Contactar</a></li>
             </ul>
-            <a href="#contact-me" class="btn">Contactar</a>
         </nav>
     </div>
 
@@ -113,10 +117,10 @@
     </div>
 
     <!------ Contact me section-->
-    <video controls="false" disablePictureInPicture autoplay muted loop id="bgcontactme" src="./resources/bg3.mp4"></video>
+    <div class="bgdiv"><video controls="false" disablePictureInPicture autoplay muted loop id="bgcontactme" src="./resources/bg3.mp4"></video></div>
     <div class="contact-me" id="contact-me">
         <p>¡Permiteme crear algo para ti!</p>
-        <a href="contact-me_construct.html" class="button-two">Contratame</a>
+        <a href="contactme.html" class="button-two">Contratame</a>
         <a href="https://www.pexels.com/video/person-encoding-in-a-computer-2278095/" id="credits">Video by Joseph Redfield</a>
     </div>
     
