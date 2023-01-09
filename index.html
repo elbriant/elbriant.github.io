@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elbriantdev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/182228421b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <video autoplay muted loop id="bgvideo" src="./resources/background-placeholder2.mp4"></video> -->
+    <!-------  main Section   ------->
+    <div class="hero" id="inicio">
+        <nav>
+            <h2 class="logo">elbriant<span>dev</span></h2>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#proyects">Proyectos</a></li>
+            </ul>
+            <a href="#contact-me" class="btn">Contactar</a>
+        </nav>
+    </div>
+
+    <div class="content">
+        <h4>Hola, mi nombre es</h4>
+        <h1>Brian Lopez</h1>
+        <h3>Soy un programador independiente.</h3>
+        <div class="newsletter"></div>
+    </div>
+
+    <!------- About Section   ------>
+    <section class="about" id="about">
+        <div class="main">
+            <img src="resources/me.jpg" alt="Mi gato">
+            <div class="about-text">
+                <h2>Sobre mí</h2>
+                <h5>Programador web y <span>desarrollador de videojuegos</span></h5>
+                <p>Soy Brian Lopez, un desarrollador de 17 años localizado en Venezuela, me gusta desarollar aplicaciones webs y juegos
+                    estoy actualmente estudiando y buscando trabajo, he hecho pequeños trabajos que podras encontrar mas abajo, espero que mi esfuerzo de hoy lo valga el dia de mañana :)
+                </p>
+                <button type="button" onclick="document.location.href='contact-me_construct.html';">Vamos a hablar</button>
+            </div>
+        </div>
+    </section>
+
+    <!------- Services Section --------->
+    <div class="service" id="proyects">
+        <div class="title">
+            <h2>Mis Proyectos</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <img src="./resources/math.png" alt="">
+                <i class="fa-solid fa-gamepad"></i>
+                <h5>Puzzle!</h5>
+                <h6>- webgame -</h6>
+                <div class="pra">
+                    <p>Intenta adivinar un número generado aleatoriamente en el menor número de intentos posible</p>
+                    <p style="text-align: center;"><a href="./proyects/jueguito/index.html" class="button">¡Jugar!</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./resources/door.png" alt="" id="thedoor">
+                <i class="fa-solid fa-gamepad"></i>
+                <h5>The door</h5>
+                <h6>- webgame -</h6>
+                <div class="pra">
+                    <p>Un juego interactivo donde tendrás que pasar por puertas que te llevaran a diferentes lugares sin saber cual será tu destino...</p>
+                    <p style="text-align: center;"><a href="./proyects/The door/index_construct.html" class="button">¡Jugar!</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./resources/gomitas.jpg" alt="">
+                <i class="fa-sharp fa-solid fa-cubes"></i>
+                <h5>Gomitas</h5>
+                <h6>- webgame -</h6>
+                <div class="pra">
+                    <p>Un test online para saber que tipo de gomita dulce eres según tu personalidad</p>
+                    <p style="text-align: center;"><a href="./proyects/gomitas/index.html" class="button">¡Jugar!</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-bg">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>Pet the maid!</h5>
+                    <h6>- Android -</h6>
+                    <div class="pra">
+                        <p>En construcción</p>
+                        <p style="text-align: center;"><a href="#" class="button btn-un">No disponible</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-bg">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>Rythmn CAT</h5>
+                    <h6>- Android -</h6>
+                    <div class="pra">
+                        <p>En construcción</p>
+                        <p style="text-align: center;"><a href="#" class="button btn-un">No disponible</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Contact me section-->
+    <video controls="false" disablePictureInPicture autoplay muted loop id="bgcontactme" src="./resources/bg3.mp4"></video>
+    <div class="contact-me" id="contact-me">
+        <p>¡Permiteme crear algo para ti!</p>
+        <a href="contact-me_construct.html" class="button-two">Contratame</a>
+        <a href="https://www.pexels.com/video/person-encoding-in-a-computer-2278095/" id="credits">Video by Joseph Redfield</a>
+    </div>
+    
+    <!------ footer start ------>
+    <footer>
+        <p>Brian Lopez</p>
+        <p>Quiero plata</p>
+        <div class="social">
+            <a href="https://www.facebook.com/elbriant14"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/elbriantdev"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/elbriant"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="end">¡Ten un buen dia! &hearts;</div>
+    </footer>
+</body>
+</html>

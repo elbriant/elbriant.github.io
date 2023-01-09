@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <title>Juegito</title>
+</head>
+
+<body>
+    <div class="widget">
+    <center>
+        <h2>¡Adivina el numero! - juego:</h2>
+        <div>
+            se generará un numero y debes intentar adivinarlo, ¡intenta adivinarlo en el menor numero de intentos!
+        </div>
+        <br><br>
+    <input type="number" id="number" name="Name" placeholder="0-10000">
+    <br><br>
+    <button id="b" onclick="check();">Intentar</button>
+    <br><br>
+    <p id="Goutput"></p>
+    <img id="imgwin" src="https://c.tenor.com/e-LsbnNHQ5cAAAAd/catjam-cat-dancing.gif" style="width: 100%; max-width: 100%; height: auto;">
+    </center>
+    </div>
+</body>
+<script>
+    let x;
+    var y, intentos;
+    intentos = 0
+    x = Math.floor(Math.random() * 10001);
+    console.log(x)
+    function check(){
+        intentos += 1;
+        y = document.getElementById("number").value;
+        console.log(y)
+        if (y != x) {
+            if (y > x) {
+                document.getElementById("Goutput").innerHTML = "¡Intenta un numero menor!";
+            } else {
+                document.getElementById("Goutput").innerHTML = "¡Intenta un numero mayor!";
+            }
+        } else {
+            document.getElementById("Goutput").innerHTML = "¡Felicitaciones, has adivinado el numero! :) \n Solo te ha llevado: " + intentos + " intentos";
+            document.getElementById("imgwin").style.visibility = "visible";
+        }
+    }
+
+</script>
+
+</html>
