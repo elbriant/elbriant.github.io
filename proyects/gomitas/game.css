@@ -92,6 +92,7 @@ body {
     #game {
         padding: 30px 20px;
         width: 100vw;
+        margin-bottom: 20%;
     }
 
     * {
