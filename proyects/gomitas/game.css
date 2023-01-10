@@ -84,9 +84,14 @@ body {
     .choice-container {
         min-width: 33rem;
     }
-    
-    .container-flex{
-        margin-top: 3rem;
+
+    .container-flex {
+        padding: 0;
+    }
+
+    #game {
+        padding: 30px 20px;
+        width: 100vw;
     }
 
     * {

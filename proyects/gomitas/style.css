@@ -201,7 +201,7 @@ footer {
     footer {
         margin-top: 30%;
         font-size: 1.8rem;
-        padding-bottom: 120px;
+        padding-bottom: 160px;
         transform: translateY(100%);
     }
     .footer-box:hover > footer {
@@ -212,5 +212,8 @@ footer {
     }
     * {
         overflow: hidden;
+    }
+    .container-end {
+    height: 100%;
     }
 }
