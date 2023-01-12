@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
+    /* outline: #f00 solid 1px; */
 }
 :root {
     --orange-verylight: #f5c77e;
@@ -134,13 +135,15 @@ h4 {
     background-color: #191919;
 }
 
-.about img{
+.about .main img {
     height: auto;
     width: 430px;
+    border-radius: 12px;
+
 }
 
 .about-text {
-    width: 550px;
+    max-width: 550px;
 }
 
 .main {
@@ -150,6 +153,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 50;
 }
 
 .about-text h2{
@@ -269,6 +273,7 @@ h6 {
     margin: 2px 0 5px; 
     z-index: 100;
 }
+
 
 .pra p {
     color: var(--orange-verylight);
@@ -445,7 +450,7 @@ footer p:nth-child(2){
     object-fit: contain;
     scale: 2;
 }
-@media only screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     .logo {
         font-size: 30px;
         padding: 5px 0 5px 20px;
@@ -493,27 +498,26 @@ footer p:nth-child(2){
     #check:checked ~ ul {
         transform: translateX(0%);
     }
-    .about img {
-        width: 20vw;
-        margin-right: 10px;
-    }
     .about {
-        padding: 10px 0 ;
+        padding: 20px;
+    }
+    .about .main img {
+        width: 80vw;
+        max-width: 400px;
+        order: 50;
     }
     .main {
         margin: 30px 0;
         padding-left: 10px;
+        flex-direction: column;
     }
-
     .about-text h2 {
         font-size: 60px;
     }
-
     .title h2{
         width: 100vw;
         font-size: 52px;
     }
-
     .contact-me p {
         font-size: 35px;
         text-align: center;
