@@ -183,12 +183,23 @@ footer {
 }
 
 #gummy {
-    width: 50%;
+    max-width: 20rem;
+    max-height: 20rem;
+    margin-bottom: 3rem;
 }
 
-#gummy img {
-    width: 25%;
-    margin-left: 40%;
+#gummy h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+#gummyimg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 @media only screen and (max-width: 600px) {
@@ -206,9 +217,6 @@ footer {
     }
     .footer-box:hover > footer {
         transform: translateY(0%);
-    }
-    #gummy {
-        width: 100%;
     }
     * {
         overflow: hidden;

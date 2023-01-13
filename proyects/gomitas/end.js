@@ -29,7 +29,7 @@ for (i = 0; i < p; i++){
 }
 var whichImage = Math.round(Math.random()*(p-1));
 function showImage(){
-document.getElementById('gummy').innerHTML += '<img src="'+theImages[whichImage]+'">';
+document.getElementById('gummy').innerHTML += '<img id="gummyimg" src="'+theImages[whichImage]+'">';
 }
 
 // finalScore.innerText = mostRecentScore
