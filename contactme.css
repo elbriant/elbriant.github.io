@@ -6,7 +6,9 @@
 }
 
 section {
-    padding: 40px 15%;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 15%;
 }
 
 .contact {
