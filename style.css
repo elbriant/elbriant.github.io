@@ -15,7 +15,7 @@
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: thin;
 }
 
 ::-webkit-scrollbar-track {
@@ -650,7 +650,6 @@ footer p:nth-child(2){
         width: fit-content;
         overflow: hidden;
         overflow-y: visible;
-        scrollbar-width: thin;
     }
 
     .box .card:first-child {
