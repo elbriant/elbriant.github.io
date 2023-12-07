@@ -15,7 +15,7 @@
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-    width: thin;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
