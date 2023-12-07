@@ -653,8 +653,8 @@ footer p:nth-child(2){
     }
 
     .box .card:first-child {
-        grid-column-start: unset;
-        grid-column-end: unset;
+        grid-column-start: 1;
+        grid-column-end: 3;
         grid-row-start: unset;
         grid-row-end: unset;
     }
