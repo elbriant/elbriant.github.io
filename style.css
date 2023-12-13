@@ -25,6 +25,9 @@
 ::-webkit-scrollbar-thumb {
     background: var(--orange-strong);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 
 .hero {
@@ -117,6 +120,7 @@ h1 {
 }
 
 h3 {
+    font-style: italic;
     color: #fff;
     font-size: 20px;
     margin-bottom: 50px;
@@ -128,6 +132,16 @@ h4 {
     letter-spacing: 2px;
     font-size: 18px;
     text-shadow: rgb(46, 46, 46) 5px 5px 15px;
+}
+
+#main-button-down {
+    color: #dc6601;
+    text-decoration: none;
+    font-size: 4em;
+    position: absolute;
+    left: 50%;
+    top: 90vh;
+    animation: bounce_513 1s infinite;
 }
 
 .about {
@@ -556,6 +570,19 @@ footer p:nth-child(2){
 #check {
     display: none;
 }
+
+@keyframes bounce_513 {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+  
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+  
 
 @media screen and (max-width: 1100px) {
     .logo {
