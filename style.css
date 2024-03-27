@@ -258,6 +258,10 @@ button:hover {
     grid-row-end: 3;
 }
 
+.box .card#card-thedoor {
+    grid-row-end: span 2;
+}
+
 .card {
     text-decoration: none;
     border-radius: 20px;
@@ -675,6 +679,7 @@ footer p:nth-child(2){
         grid-auto-rows: 225px;
         grid-auto-flow: row;
         width: fit-content;
+        margin: 0 auto;
         overflow: hidden;
         overflow-y: visible;
     }
