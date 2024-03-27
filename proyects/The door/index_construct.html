@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>The door</title>
     <style>
         :root {
@@ -12,20 +11,25 @@
             --color2: #313131;
             --duration: 2s;
         }
-
-        body {
-            display: flex;
-            height: 100vh;
-            overflow: hidden;
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
         }
-
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            
+        }
         .stripe {
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
         }
 
         .stripe_inner {
@@ -95,6 +99,6 @@
 <body>
     <div class="stripe">
         <div class="stripe_inner">En construcción</div>
-      </div>
+     </div>
 </body>
 </html>
