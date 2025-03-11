@@ -1,0 +1,13 @@
+#imgwin { visibility: hidden; }
+body {
+    font-family: sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #f7d89e55 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(225deg, #f7d89e 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(315deg, #f7d89e55 25%, transparent 25%) 0px 0/ 42px 42px, linear-gradient(45deg, #f7d89e 25%, #e5e5f7 25%) 0px 0/ 42px 42px;
+}
+.widget {
+    margin: 0 0 1.5em;
+    border-bottom: 2px solid rgba(219, 220, 222, 0.952);
+    padding: 20px;
+    background: #fff;
+}

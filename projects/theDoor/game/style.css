@@ -1,0 +1,35 @@
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 37.5px 37.5px, linear-gradient(#ff9f00 3px, transparent 3px) 0 -1.5px, linear-gradient(90deg, #ff9f00 3px, #e5e5f7 3px) -1.5px 0;
+    background-size: 75px 75px, 75px 75px, 37.5px 37.5px, 37.5px 37.5px;
+}
+
+.game-display {
+    opacity: 1;
+    width: fit-content;
+    height: 600px;
+}
+
+.game-display__door {
+    width: 200px;
+    display: inline;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+
+.game-history {
+    display: flex;
+    justify-content: center;
+}
+
+#history-box {
+    size: 200;
+    max-width: 1000px;
+    max-height: 170px;
+    min-width: 600px;
+    min-height: 80px;
+    width: 600px;
+    height: 80px;
+}

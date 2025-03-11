@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <title>The door</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="popup">
+        <div class="popupcontrols">
+            <div class="close-container">
+                <div class="leftright"></div>
+                <div class="rightleft"></div>
+                <label class="close" id="popupclose">close</label>
+              </div>
+        </div>
+        <div class="popupcontent">
+            <p>Buenas, luego escribire el como jugar XD<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim beatae fugiat rem nam eum. Dolorum unde magni tempore cum quo accusamus sunt pariatur non, aliquid exercitationem, quis animi. Quo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis officia quod atque. Error quos quo dignissimos nobis magni corrupti eum similique, neque repellendus tempora adipisci. Velit dignissimos doloribus itaque quia?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt recusandae molestias, debitis odit aliquid laudantium nam, quae cumque nisi pariatur commodi quo rerum earum, eos ex officiis quod alias vitae?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, totam soluta culpa harum incidunt fuga consequatur magni temporibus ratione nesciunt exercitationem recusandae cupiditate. Accusantium obcaecati molestiae corrupti, nesciunt veniam quo!loremlo   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum impedit tempore nemo, quidem quam aliquid quia assumenda laborum quo velit voluptate doloribus, adipisci dolor recusandae. Animi sit pariatur tempora blanditiis!/p>
+        </div>
+    </div>
+    <div id="menu">
+        <img id="imgmenu" src="game/resources/menu-logo1.png">
+        <div id="menu-items">
+            <a href="game/game.html" class="menu-item">Empezar</a>
+            <div id="howtoplay" class="menu-item">Como jugar</div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    // Initialize Variables
+    var closePopup = document.getElementById("popupclose");
+    var overlay = document.getElementById("overlay");
+    var popup = document.getElementById("popup");
+ 
+    // Close Popup Event
+    closePopup.onclick = function() {
+        overlay.style.display = 'none';
+        popup.style.display = 'none';
+    };
+    // Show Overlay and Popup
+	howtoplay.onclick = function() {
+	  overlay.style.display = 'block';
+	  popup.style.display = 'block';
+	}
+</script>
+</html>

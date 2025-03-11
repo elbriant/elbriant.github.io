@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Que tipo de gomita eres? - end</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/182228421b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="container-flex container-end">
+            <div id="end" class="flex-center flex-column">
+                <div id="gummy">
+                    <h2>Eres esta gomita:</h2>
+                </div>
+                <form class="end-form-container"autocomplete="off">
+                    <h2 id="end-text">¡Ingresa tu nombre para guardar tu gomita!</h2>
+                    <input type="text" name="name" id="username" placeholder="Ingresa tu nombre">
+                    <button class="btn" id="saveScoreBtn" type="submit" onclick="SaveHighScore(event)" disabled>Guardar</button>
+                </form>
+                <a href="game.html" class="btn">Intentar otra vez</a>
+                <a href="index.html" class="btn"><i class="fas fa-home"></i>Menu principal</a>
+            </div>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
