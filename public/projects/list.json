@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Don Gato",
+        "subtitle":{
+            "es":"PC, Android",
+            "en":null
+        },
+        "imageRes": "gatotycoon.jpeg",
+        "imageAlt": "dongato",
+        "href":"https://elbriant.itch.io/gato-tycoon",
+        "description": {
+            "es":"- jefe en garras - <br> un divertido juego de gestión y administración de recursos con gatos, donde deberás estar a cargo de una empresa de emplegatos",
+            "en":null
+        },
+        "technologies": [
+            {
+                "name":"Godot",
+                "codename":"gdscript",
+                "icon":"devicon-plain:godot"
+            }
+        ],
+        "customExtend": {
+            "width":2,
+            "height":2
+        },
+        "available": true,
+        "featured":true,
+        "game":true
+    },
+    {
+        "name": "Puzzle!",
+        "subtitle":{
+            "es":"Juego",
+            "en":null
+        },
+        "imageRes": "math.png",
+        "imageAlt": "matematicas",
+        "href":"jueguito/index.html",
+        "description": {
+            "es":"Intenta adivinar un número generado aleatoriamente en el menor número de intentos posible.",
+            "en":null
+        },
+        "technologies": null,
+        "customExtend": null,
+        "available":true,
+        "featured":false,
+        "game":true
+    },
+    {
+        "name": "Gomitas",
+        "subtitle":{
+            "es":"Quiz",
+            "en":null
+        },
+        "imageRes": "gomitas.jpg",
+        "imageAlt": "gomitas",
+        "href":"gomitas/index.html",
+        "description": {
+            "es":"Un quiz para saber que tipo de gomita dulce eres según tu personalidad.",
+            "en":null
+        },
+        "technologies": null,
+        "customExtend": null,
+        "available":true,
+        "featured":false,
+        "game":false
+    },
+    {
+        "name": "The door",
+        "subtitle":{
+            "es":"Juego",
+            "en":null
+        },
+        "imageRes": "door.png",
+        "imageAlt": "puerta",
+        "href":"theDoor/building.html",
+        "description": {
+            "es":"Un juego interactivo donde tendrás que pasar por puertas que te llevarán a diferentes lugares sin saber cual será tu destino...",
+            "en":null
+        },
+        "technologies": null,
+        "customExtend": {
+            "width":null,
+            "height":2
+        },
+        "available": true,
+        "featured":false,
+        "game":true
+    },
+    {
+        "name": "Eat, Gato!",
+        "subtitle":{
+            "es":"Juego",
+            "en":null
+        },
+        "imageRes": "eatgato.webp",
+        "imageAlt": "eatgato cover image",
+        "href":"https://elbriant.itch.io/eat-gato?secret=VwqHDi2na4EWjv3Lu4llI70Mg",
+        "description": {
+            "es":"Un juego donde el protagonista <span>Gato</span> debe buscar comida antes de quedarse dormido, un excelente juego frenético donde pasarás horas de diversión",
+            "en":null
+        },
+        "technologies": null,
+        "customExtend": null,
+        "available":true,
+        "featured":false,
+        "game":true
+    },
+    {
+        "name": "Pet the maid!",
+        "subtitle":{
+            "es":"Android",
+            "en":null
+        },
+        "imageRes": null,
+        "imageAlt": null,
+        "href":null,
+        "description": {
+            "es":"En construcción",
+            "en":null
+        },
+        "technologies": null,
+        "customExtend": null,
+        "available": false,
+        "featured":false,
+        "game":true
+    },{
+        "name": "Rythmn CAT",
+        "subtitle":{
+            "es":"Juego",
+            "en":null
+        },
+        "imageRes": null,
+        "imageAlt": null,
+        "href":null,
+        "description": {
+            "es":"En construcción",
+            "en":null
+        },
+        "technologies": null,
+        "customExtend": null,
+        "available": false,
+        "featured":false,
+        "game":true
+    }
+]

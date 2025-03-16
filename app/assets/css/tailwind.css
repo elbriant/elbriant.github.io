@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+:root {
+    scrollbar-color: #dc6601 #ddd;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dc6601;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "",
+    "subtitle":{
+        "es":"",
+        "en":""
+    },
+    "imageRes": "",
+    "imageAlt": "",
+    "href":"",
+    "description": {
+        "es":"",
+        "en":""
+    },
+    "technologies": [
+        {
+            "name":"",
+            "codename":"",
+            "icon":""
+        }
+    ],
+    "customExtend": {
+        "width":"",
+        "height":""
+    },
+    "available": false,
+    "featured":false,
+    "game":false
+}

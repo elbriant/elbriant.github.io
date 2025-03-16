@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
     <NavigationBar />
     <MainScreen />
@@ -6,7 +9,3 @@
     <ContactSection />
     <Footer />
 </template>
-
-<script setup lang="ts">
-
-</script>

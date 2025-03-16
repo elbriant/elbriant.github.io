@@ -38,23 +38,6 @@ export default {
         { values: theme('textShadow') }
       )
     }),
-    plugin(({ addBase, theme }) => {
-      addBase({
-        '.scrollbar': {
-          scrollbarColor: '#dc6601 #ddd',
-          scrollbarWidth: 'thin',
-        },
-        '.scrollbar::-webkit-scrollbar': {
-          width: '5px',
-        },
-        '.scrollbar::-webkit-scrollbar-thumb': {
-          backgroundColor: '#dc6601',
-        },
-        '.scrollbar::-webkit-scrollbar-track': {
-          backgroundColor: '#ddd',
-        },
-      });
-    }),
   ],
 }
 

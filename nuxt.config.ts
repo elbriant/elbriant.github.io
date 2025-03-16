@@ -38,14 +38,42 @@ export default defineNuxtConfig({
 
   router: {
     options: {
-      scrollBehaviorType: 'smooth'
-    }
+      scrollBehaviorType: "smooth",
+    },
+  },
+
+  tailwindcss: {
+    viewer: true,
+  },
+
+  i18n: {
+    vueI18n: "~/i18n.config.ts",
+    locales: [
+      {
+        code: "en",
+        language: "en-US",
+        name: "English",
+      },
+      {
+        code: "es",
+        language: "es-ES",
+        name: "Español",
+      },
+    ],
+    defaultLocale: "es",
+  },
+
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    },
   },
 
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
+    "@nuxtjs/i18n",
     "@nuxt/icon",
     "@nuxt/image",
   ],

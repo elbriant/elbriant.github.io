@@ -1,13 +1,13 @@
 <template>
-    <section id="contact" class="w-full h-dvh relative -z-50 bg-gray-light">
-        <video class="w-full h-dvh absolute object-cover -z-40 blur-[2px] overflow-hidden pointer-events-none"
+    <section id="contact" class="w-full h-dvh relative bg-gray-light">
+        <video class="w-full h-dvh absolute object-cover blur-[2px] overflow-hidden pointer-events-none"
             disablePictureInPicture autoplay muted loop src="public/contact_bg.mp4"></video>
-        <div class="w-full h-dvh flex flex-col justify-center items-center font-Sans bg-black bg-opacity-30">
+        <div class="w-full h-dvh relative flex flex-col justify-center items-center font-Sans bg-black bg-opacity-30">
             <p
                 class="text-white text-4xl text-center font-bold mb-6 shadow-zinc-800 [text-shadow:_5px_5px_15px_var(--tw-shadow-color)] lg:text-6xl">
-                ¡Permítame
-                crear algo para ti!</p>
-            <BaseButton to="/contactme" class="scale-125 text-xl py-3 px-7">Contactarse</BaseButton>
+                {{ $t('contact.title') }}
+            </p>
+            <BaseButton to="/contactme" class="scale-125 text-xl py-3 px-7">{{ $t('contact.button') }}</BaseButton>
         </div>
 
         <div class="absolute bottom-2 w-full flex justify-center items-center">
