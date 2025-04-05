@@ -27,6 +27,16 @@ export default {
       center: true,
     }
   },
+  safelist: [
+    {
+      pattern: /col-span-[(0|1|2|3)]/,
+      variants: ['md', 'lg'],
+    },
+    {
+      pattern: /row-span-[(1|2|3)]/,
+      variants: ['md', 'lg'],
+    },
+  ],
   plugins: [
     plugin(function ({ matchUtilities, theme }) {
       matchUtilities(

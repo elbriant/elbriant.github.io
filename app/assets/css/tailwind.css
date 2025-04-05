@@ -4,18 +4,23 @@
 
 /* Custom scrollbar */
 :root {
-    scrollbar-color: #dc6601 #ddd;
-    scrollbar-width: thin;
+  scrollbar-color: #dc6601 #ddd;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-    width: thin;
+  width: thin;
 }
 
 ::-webkit-scrollbar-track {
-    background: #ddd;
+  background: #ddd;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #dc6601;
+  background: #dc6601;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
 }

@@ -76,5 +76,6 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxt/icon",
     "@nuxt/image",
+    "nuxt-marquee",
   ],
 });

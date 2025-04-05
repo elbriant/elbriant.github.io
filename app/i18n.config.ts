@@ -22,6 +22,8 @@ export default defineI18nConfig(() => ({
       },
       projects: {
         title: "Mis Proyectos",
+        game: "¡Jugar!",
+        app: "¡Abrir!",
       },
       contact: {
         title: "¡Permítame crear algo para ti!",
@@ -74,6 +76,8 @@ export default defineI18nConfig(() => ({
       },
       projects: {
         title: "My Projects",
+        game: "Play!",
+        app: "Open!",
       },
       contact: {
         title: "Let me create something for you!",
