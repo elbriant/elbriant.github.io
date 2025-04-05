@@ -61,6 +61,7 @@ export default defineNuxtConfig({
       },
     ],
     defaultLocale: "es",
+    baseUrl: "https://elbriant.github.io",
   },
 
   app: {
