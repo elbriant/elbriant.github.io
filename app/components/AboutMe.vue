@@ -1,5 +1,5 @@
 <template>
-    <section id="aboutme" class="w-full h-dvh p-5 bg-gray-light py-7 flex flex-col items-center justify-around
+    <section id="aboutme" class="w-full h-screen p-5 bg-gray-light py-7 flex flex-col items-center justify-around
          lg:px-24 lg:flex-row lg:p-10 lg:pt-24">
         <NuxtImg src="me.jpg" :alt="$t('alts.aboutImg')" class="w-4/5 max-w-sm h-full object-cover order-12 rounded-xl
             lg:-order-1 lg:w-96 lg:max-w-fit" format="webp" :modifiers="{ rotate: null }" />

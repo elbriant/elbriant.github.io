@@ -69,13 +69,13 @@ async function sendEmail(event: Event) {
 
 <template>
     <section class="w-full py-3 px-6 flex flex-col justify-center items-center bg-gray-strong text-white 
-    [&_span]:text-orange-light md:flex-row md:h-dvh md:space-x-24 md:px-8">
+    [&_span]:text-orange-light md:flex-row md:h-screen md:space-x-24 md:px-8">
         <main class="flex flex-col justify-center items-start mb-20
         md:max-w-[50%] md:mb-0">
             <h1 class="text-7xl mb-5">{{ $t('contactPage.title1') }}<span>{{
                 $t('contactPage.title2') }}</span></h1>
             <p class="text-orange-verylight tracking-wide leading-7 text-base mb-7">{{ $t('contactPage.p1')
-                }}<span>+584121601433</span> {{ $t('contactPage.p2')
+            }}<span>+584121601433</span> {{ $t('contactPage.p2')
                 }}<span>elbriantdev@gmail.com</span></p>
             <form class="*:w-full *:p-3 *:border-none *:outline-none *:bg-gray-light *:mb-2.5 *:rounded-md"
                 @submit="sendEmail">

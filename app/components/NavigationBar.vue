@@ -35,7 +35,7 @@ onMounted(() => {
             <Icon size="2rem" name="heroicons:bars-3-16-solid"></Icon>
         </label>
 
-        <ul class="fixed w-full h-dvh -z-10 top-0 left-0 bg-gray-light text-center transition duration-300 -translate-x-full [&_a]:text-xl
+        <ul class="fixed w-full h-screen -z-10 top-0 left-0 bg-gray-light text-center transition duration-300 -translate-x-full [&_a]:text-xl
              lg:flex lg:space-x-6 lg:static lg:w-auto lg:h-auto lg:bg-transparent lg:translate-x-0">
             <li class="w-full my-8 py-3 mt-28
             lg:w-auto lg:my-auto lg:py-auto lg:mt-o">

@@ -20,9 +20,10 @@ function scroll(quantity: number) {
 
 <template>
     <section id="projects"
-        class="w-full h-dvh bg-gray-strong py-10 px-0 flex flex-col items-center text-white relative">
+        class="w-full h-screen bg-gray-strong py-10 px-0 flex flex-col items-center text-white relative">
         <h2 class="text-6xl mb-6 mt-8">{{ $t('projects.title') }}</h2>
-        <div class="h-full max-w-[70%] grid scrollbar-thin w-fit justify-center
+        <div class="h-full max-w-[70%] grid scrollbar-thin w-fit
+        justify-center lg:justify-start
         grid-flow-row lg:grid-flow-col
         overflow-y-scroll lg:overflow-hidden
         grid-cols-[repeat(2,minmax(auto,172px))] lg:grid-cols-[repeat(2,172px)]
