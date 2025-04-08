@@ -22,13 +22,14 @@ function scroll(quantity: number) {
     <section id="projects"
         class="w-full h-screen bg-gray-strong py-10 px-0 flex flex-col items-center text-white relative">
         <h2 class="text-6xl mb-6 mt-8">{{ $t('projects.title') }}</h2>
-        <div class="h-full max-w-[70%] grid scrollbar-thin w-fit
+        <div class="h-full grid scrollbar-thin w-fit
+        max-w-[95%] lg:max-w-[70%]
         justify-center lg:justify-start
         grid-flow-row lg:grid-flow-col
         overflow-y-scroll lg:overflow-hidden
         grid-cols-[repeat(2,minmax(auto,172px))] lg:grid-cols-[repeat(2,172px)]
-        grid-rows-[repeat(2,252px)] lg:grid-rows-[repeat(2,50%)]
-        auto-rows-[252px] lg:auto-rows-auto
+        grid-rows-[repeat(2,192px)] lg:grid-rows-[repeat(2,50%)]
+        auto-rows-[192px] lg:auto-rows-auto
         auto-cols-auto lg:auto-cols-[172px]" ref="projects-box">
             <ProjectChild v-for="project in projects" :project="project" />
         </div>

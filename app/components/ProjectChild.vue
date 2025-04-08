@@ -56,7 +56,7 @@ const classObject = computed(() => ({
                 <h5 class="text-white text-sm" :class="{ 'lg:[&]:text-xl': large }">{{ project.name }}</h5>
                 <h6 class="text-orange-light text-[0.625rem] mt-0.5 mx-0 mb-1" :class="{ 'lg:[&]:text-xs': large }">- {{
                     subtitle
-                }} -</h6>
+                    }} -</h6>
             </div>
             <NuxtMarquee v-if="project.technologies != null"
                 class="max-w-[40%] mr-2 [-webkit-mask-image:linear-gradient(90deg,transparent_0%,transparent_7%,rgba(255,255,255,1)_20%,rgba(255,255,255,1)_80%,transparent_93%,transparent_100%)] "
@@ -68,7 +68,7 @@ const classObject = computed(() => ({
         <button class="absolute rounded-tl-2xl border-none bg-[#ffab10] text-white text-xs py-2 px-4 left-[80%] bottom-0 transition duration-300 ease-out
         transform -translate-x-1/2 translate-y-[125%] opacity-0
         group-hover:opacity-100 group-hover:translate-y-0"
-            :class="{ 'lg:[&]:bg-[#df2c14]': notAvailable, 'lg:[&]:text-sm': large, 'lg:[&]:left-1/2': large, 'rounded-tr-2xl': large, 'lg:[&]:px-8': large }">{{
+            :class="{ '[&]:bg-[#df2c14]': notAvailable, 'lg:[&]:text-sm': large, 'lg:[&]:left-1/2': large, 'rounded-tr-2xl': large, 'lg:[&]:px-8': large }">{{
                 buttonLabel
             }}</button>
     </NuxtLink>

@@ -74,9 +74,9 @@ async function sendEmail(event: Event) {
         md:max-w-[50%] md:mb-0">
             <h1 class="text-7xl mb-5">{{ $t('contactPage.title1') }}<span>{{
                 $t('contactPage.title2') }}</span></h1>
-            <p class="text-orange-verylight tracking-wide leading-7 text-base mb-7">{{ $t('contactPage.p1')
-            }}<span>+584121601433</span> {{ $t('contactPage.p2')
-                }}<span>elbriantdev@gmail.com</span></p>
+            <p class="text-orange-verylight tracking-wide leading-7 text-base mb-7">
+                {{ $t('contactPage.p1') }}<span>+584121601433</span>{{
+                    $t('contactPage.p2') }}<span>elbriantdev@gmail.com</span></p>
             <form class="*:w-full *:p-3 *:border-none *:outline-none *:bg-gray-light *:mb-2.5 *:rounded-md"
                 @submit="sendEmail">
                 <input v-model="name" type="text" :placeholder="$t('contactPage.form.name')" required>
