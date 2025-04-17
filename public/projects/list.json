@@ -1,16 +1,50 @@
 [
+{
+    "name": "SagaHelper",
+    "subtitle":{
+        "es":"App",
+        "en":"App"
+    },
+    "imageRes": "sagahelper.jpg",
+    "imageAlt": "sagahelper app mockup",
+    "href":"https://github.com/elbriant/sagahelper",
+    "description": {
+        "es":"Una aplicación desarrollada para los aficionados del videojuego <span>Arknights</span> dónde podrás encontrar recursos interesantes e informativos que enriquecerán tu experiencia en el juego",
+        "en":"An application developed for fans of the video game <span>Arknights</span> where you can find interesting and informative resources that will enrich your experience in the game"
+    },
+    "technologies": [
+        {
+            "name":"Flutter",
+            "codename":"flutter",
+            "icon":"material-symbols:flutter"
+        },{
+            "name":"Dart",
+            "codename":"dart",
+            "icon":"simple-icons:dart"
+        },{
+        "name": "Android",
+        "codename": "Android",
+        "icon": "material-symbols:android"
+      }
+    ],
+    "customExtend": null,
+    "available": true,
+    "featured":true,
+    "game":false
+}
+,
   {
     "name": "Don Gato",
     "subtitle": {
       "es": "Juego",
-      "en": null
+      "en": "Game"
     },
     "imageRes": "gatotycoon.jpeg",
     "imageAlt": "dongato",
     "href": "https://elbriant.itch.io/gato-tycoon",
     "description": {
       "es": "- jefe en garras - <br> un divertido juego de gestión y administración de recursos con gatos, donde deberás estar a cargo de una empresa de emplegatos",
-      "en": null
+      "en": "- Boss in Claws - <br> A fun resource management and administration game with cats, where you must be in charge of an employment company"
     },
     "technologies": [
       {
@@ -22,6 +56,10 @@
         "name": "Android",
         "codename": "Android",
         "icon": "material-symbols:android"
+      }, {
+        "name": "Windows",
+        "codename": "windows",
+        "icon": "ri:windows-fill"
       }
     ],
     "customExtend": {
@@ -36,14 +74,14 @@
     "name": "Puzzle!",
     "subtitle": {
       "es": "Juego",
-      "en": null
+      "en": "Game"
     },
     "imageRes": "math.png",
     "imageAlt": "matematicas",
     "href": "jueguito/index.html",
     "description": {
-      "es": "Intenta adivinar un número generado aleatoriamente en el menor número de intentos posible.",
-      "en": null
+      "es": "Intenta adivinar un número generado aleatoriamente en el menor número de intentos posible",
+      "en": "Try to guess a randomly generated number with the least attempts as possible."
     },
     "technologies": [
       {
@@ -71,14 +109,14 @@
     "name": "Gomitas",
     "subtitle": {
       "es": "Quiz",
-      "en": null
+      "en": "Quiz"
     },
     "imageRes": "gomitas.jpg",
     "imageAlt": "gomitas",
     "href": "gomitas/index.html",
     "description": {
       "es": "Un quiz para saber que tipo de gomita dulce eres según tu personalidad.",
-      "en": null
+      "en": "A quiz to find out what type of gummy bear you are based on your personality."
     },
     "technologies": [
       {
@@ -106,16 +144,27 @@
     "name": "The door",
     "subtitle": {
       "es": "Juego",
-      "en": null
+      "en": "Game"
     },
     "imageRes": "door.png",
     "imageAlt": "puerta",
     "href": "theDoor/building.html",
     "description": {
       "es": "Un juego interactivo donde tendrás que pasar por puertas que te llevarán a diferentes lugares sin saber cual será tu destino...",
-      "en": null
+      "en": "An interactive game where you'll have to go through doors that will take you to different places without knowing your destination..."
     },
-    "technologies": null,
+    "technologies":  [
+      {
+        "name": "HTML",
+        "codename": "HTML",
+        "icon": "mdi:language-html5"
+      },
+      {
+        "name": "Godot",
+        "codename": "gdscript",
+        "icon": "devicon-plain:godot"
+      }
+    ],
     "customExtend": {
       "width": null,
       "height": 2
@@ -128,20 +177,29 @@
     "name": "Eat, Gato!",
     "subtitle": {
       "es": "Juego",
-      "en": null
+      "en": "Game"
     },
     "imageRes": "eatgato.webp",
     "imageAlt": "eatgato cover image",
     "href": "https://elbriant.itch.io/eat-gato?secret=VwqHDi2na4EWjv3Lu4llI70Mg",
     "description": {
       "es": "Un juego donde el protagonista <span>Gato</span> debe buscar comida antes de quedarse dormido, un excelente juego frenético donde pasarás horas de diversión",
-      "en": null
+      "en": "A game where the protagonist <span>Gato</span> must look for food before falling asleep, an excellent frenetic game where you will spend hours of fun"
     },
     "technologies": [
       {
         "name": "Godot",
         "codename": "gdscript",
         "icon": "devicon-plain:godot"
+      },
+      {
+        "name": "Android",
+        "codename": "Android",
+        "icon": "material-symbols:android"
+      }, {
+        "name": "Windows",
+        "codename": "windows",
+        "icon": "ri:windows-fill"
       }
     ],
     "customExtend": null,
@@ -160,7 +218,7 @@
     "href": null,
     "description": {
       "es": "En construcción",
-      "en": null
+      "en": "WIP"
     },
     "technologies": null,
     "customExtend": null,
@@ -179,7 +237,7 @@
     "href": null,
     "description": {
       "es": "En construcción",
-      "en": null
+      "en": "WIP"
     },
     "technologies": null,
     "customExtend": null,
