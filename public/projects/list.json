@@ -27,15 +27,14 @@
         "icon": "material-symbols:android"
       }
     ],
-    "customExtend": "customExtend": {
+    "customExtend": {
       "width": 2,
       "height": 2
     },
     "available": true,
     "featured":true,
     "game":false
-}
-,
+},
   {
     "name": "Don Gato",
     "subtitle": {
