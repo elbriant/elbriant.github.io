@@ -27,7 +27,10 @@
         "icon": "material-symbols:android"
       }
     ],
-    "customExtend": null,
+    "customExtend": "customExtend": {
+      "width": 2,
+      "height": 2
+    },
     "available": true,
     "featured":true,
     "game":false
